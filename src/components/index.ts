@@ -1,3 +1,4 @@
-export {Header as ComponentHeader} from "./Header"
-export { Footer as ComponentFooter} from "./Footer"
-export { Article as ComponentArticle } from "./Article"
+export {Texto as ComponentTexto} from "./Texto"
+export { Button as ComponenButton } from "./Button"
+export {ButtonN as ComponentButtonN} from "././ButtonN"
+export {ButtonD as ComponentButtonD} from "././ButtonD"

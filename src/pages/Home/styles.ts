@@ -11,13 +11,9 @@ export const Section = styled.section`
   p { 
     font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif;
-  
+    background-color: ${colors.third};
 
   }
 
-  picture {
-    width: 100%;
-    padding-top: 5rem;
-  }
 
 `

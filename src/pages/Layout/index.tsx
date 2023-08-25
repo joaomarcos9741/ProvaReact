@@ -1,16 +1,18 @@
 import { Outlet } from "react-router-dom"
-import { ComponentHeader, ComponentFooter } from "../../components"
+import { ComponentTexto, ComponenButton } from "../../components"
 import * as S from "./styles"
 
 
 export function Layout() {
   return (
     <>
-      <ComponentHeader />
+      
+      <ComponenButton text="Tópicos"></ComponenButton>
+      <ComponentTexto />
       <S.Main>
         <Outlet />
       </S.Main>
-      <ComponentFooter />
+      
     </>
   )
 }

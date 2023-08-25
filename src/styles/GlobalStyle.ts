@@ -1,12 +1,12 @@
 import styles, { createGlobalStyle } from "styled-components"
 
 export const colors = {
-    primary: "#43E8DE",
-    secondary: "#000000",
-    third: "#F0F0F0",
-    fourth: "#B068C9",
+    primary: "#586875",
+    secondary: "#A5C8CA",
+    third: "#10898B",
     black: "#000000",
-    while: "#f0f0f0"
+    branco: "#FFFFFF",
+    while: "#E2D9C2"
 
 }
 
@@ -19,12 +19,6 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    body {
-        background-color: ${colors.while};
-    }
 
-    ul li a{
-        
-    }
 `
 
